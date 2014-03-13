@@ -4,6 +4,7 @@
 # followed by Blastoff!
 
 def countdown(n):
+    """Pretty cool countdown mechanism for a rocket!"""
     while n > 0:
         print n
         n = n - 1
