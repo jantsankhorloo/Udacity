@@ -3,6 +3,7 @@
 # of the three numbers.
 
 def median(a,b,c):
+    """Checks which of the three input is the median number"""
     if a>=b>=c:
         return b
     elif a>=c>=b:
